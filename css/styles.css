@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+.img1, .img2, .img3 {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0.8;
+}
+
+.img1 {
+	background-image: url('https://doc-0o-6s-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/6rdlaros4t9b4uvg1pqvvg3ocv2c2f17/1545991200000/13014571552619064925/*/1ITUnIN2HVxZyQhDKruMEHhFfWANkM3rG');
+	height: 100vh;
+}
+
+.img2 {
+	background-image: url('https://doc-0k-6s-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/l7dur1fcpobo41453bojfaags0si9ks5/1545991200000/13014571552619064925/*/1UgE2eeJog2TNBYyT3gv-5W-GOhG_KzIl');
+	height: 40vh;
+}
+
+.img3 {
+	background-image: url('https://doc-14-6s-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/nfhfhstiln2lbtenuek5871hr59oqmec/1545991200000/13014571552619064925/*/19uwSYP4gmi-WGCrHWlXSoAJULauyt_wi');
+	height: 40vh;
+}
+
+.ptext {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 27px;
+	font-weight: 300;
+	letter-spacing: 8px;
+	word-spacing: 10px;
+}
+
+.ptext .border {
+	background-color: #282e34;
+	color: #fff;
+	padding: 20px;
+}
+
+.dark-sec {
+	text-align: center;
+	padding: 50px 80px;
+	background-color: #282e34;
+	color: #ddd;
+
+}
+
+.dark-sec h1 {
+	margin-bottom: 20px;
+}
+
+.main-footer {
+	height: 10vh;
+}
