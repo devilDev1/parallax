@@ -779,7 +779,11 @@ pre {
 
 /* 13. MEDIA QUERIES  ============================================ */
 
-
+@media(min-width: 768px){
+  #left-marg {
+    margin-left: 100px;
+  }
+}
 
 
 @media screen and (max-width: 768px) {
@@ -794,7 +798,7 @@ pre {
 	position: relative;
 }
 
-.picture {display: none;}
+
 
 .page1 .button-white {display: none;}
 
@@ -859,16 +863,20 @@ and (orientation : portrait) {
     opacity: 1;
 }
 
-.picture {display: none;}
+/*.picture {display: none;}*/
 
 .page1 .button-white {display: none;}
 
 
 
- }
+}
 
 @media(max-width: 550px){
 .page5 h1 {
   font-size: 80px;
+}
+.picture {
+  height:200px;
+  width: auto;
 }
 }
